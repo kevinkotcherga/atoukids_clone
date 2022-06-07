@@ -1,5 +1,6 @@
 import React from 'react';
 import './form.scss';
+import { AiOutlineSearch } from 'react-icons/ai';
 
 const Form = () => {
 	return (
@@ -10,10 +11,22 @@ const Form = () => {
 						<label>Pour qui ?</label>
 						<select>
 							<option value="default">Sélectionner...</option>
+							<option>Femme enceinte et futurs parents</option>
 							<option>Parents</option>
+							<option>Bébés (moins de 2ans)</option>
+							<option>Enfants et adolescents</option>
+							<option>Enfants et adolescents en situation de handicap</option>
+							<option>Lycéens et étudiants</option>
 						</select>
 					</div>
-					<input className="submit" type="submit" value="Je trouve" />
+					<div className="searchButton">
+						<AiOutlineSearch
+							size={20}
+							color={'white'}
+							style={{ marginRight: '10px' }}
+						/>
+						<span className="submit">Je trouve</span>
+					</div>
 				</div>
 				<div className="containerInput">
 					<div className="container">
