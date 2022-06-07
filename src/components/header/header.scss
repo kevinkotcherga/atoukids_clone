@@ -1,0 +1,50 @@
+.header {
+  padding-top: 8rem;
+  padding-bottom: 4rem;
+  background: url(../../img/atouKIDS-home-hero.jpg) no-repeat center center;
+  background-size: cover;
+  min-height: 650px;
+  margin-top: 75px;
+  position: relative;
+  .headerOverlay {
+    position: absolute;
+    background: url(https://www.atoukids.fr/front-end/assets/img/home-image-overlay.svg) no-repeat center center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+  .headerContainer {
+    position: absolute;
+    width: 100%;
+    .headerText {
+      margin: auto;
+      width: 60%;
+      padding-right: 15px;
+      padding-left: 15px;
+      .headerTextContainer {
+        width: 60%;
+        img {
+          vertical-align: middle;
+          width: 500px;
+        }
+        h1 {
+          font-weight: 500;
+          line-height: 1.2;
+          margin-top: 20px;
+          margin-bottom: 3rem;
+          font-size: 55px;
+        }
+        h4 {
+          color: #FFB100;
+          padding: 3em 0;
+          font-size: 20px;
+          span {
+            color: #FF2C4E;
+          }
+        }
+      }
+    }
+  }
+}
