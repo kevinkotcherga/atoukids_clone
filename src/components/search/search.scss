@@ -15,4 +15,12 @@
     font-weight: 500;
     line-height: 1.2;
   }
+  .arrowDown {
+    position: absolute;
+    height: 100px;
+    width: 200px;
+    margin: -70px 480px 0;
+    vertical-align: middle;
+      border-style: none;
+  }
 }
